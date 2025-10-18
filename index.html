@@ -18,8 +18,8 @@
       --brand-2: #7f2aff; /* accent */
       --ring: 0 0 0 2px rgba(198,26,26,.25);
       --shadow: 0 10px 30px rgba(0,0,0,.35);
-      --glass: rgba(255,255,255,.5);
-      --glass-brd: rgba(255,255,255,.75);
+      --glass: rgba(255,255,255,.1);
+      --glass-brd: rgba(255,255,255,.2);
     }
     [data-theme="light"]{
       --bg: #f7f7fb;
@@ -99,7 +99,7 @@
     /* PROJECTS */
     .filters{display:flex; gap:8px; flex-wrap:wrap}
     .chip{padding:8px 12px; border-radius:999px; border:1px solid var(--glass-brd); background:var(--glass); cursor:pointer; font-size:13px}
-    .chip.active{background:linear-gradient(180deg, rgba(204,0,54,.75), rgba(204,0,54,.65)); border-color:transparent}
+    .chip.active{background:linear-gradient(180deg, rgba(204,0,54,.85), rgba(204,0,54,.75)); border-color:transparent}
 
     .grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px}
     .proj{
@@ -397,6 +397,7 @@
   </script>
 </body>
 </html>
+
 
 
 
