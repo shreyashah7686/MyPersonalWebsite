@@ -18,8 +18,8 @@
       --brand-2: #7f2aff; /* accent */
       --ring: 0 0 0 2px rgba(198,26,26,.25);
       --shadow: 0 10px 30px rgba(0,0,0,.35);
-      --glass: rgba(255,255,255,.06);
-      --glass-brd: rgba(255,255,255,.15);
+      --glass: rgba(255,255,255,.5);
+      --glass-brd: rgba(255,255,255,.75);
     }
     [data-theme="light"]{
       --bg: #f7f7fb;
@@ -99,7 +99,7 @@
     /* PROJECTS */
     .filters{display:flex; gap:8px; flex-wrap:wrap}
     .chip{padding:8px 12px; border-radius:999px; border:1px solid var(--glass-brd); background:var(--glass); cursor:pointer; font-size:13px}
-    .chip.active{background:linear-gradient(180deg, rgba(198,26,26,.85), rgba(198,26,26,.65)); border-color:transparent}
+    .chip.active{background:linear-gradient(180deg, rgba(204,0,54,.75), rgba(204,0,54,.65)); border-color:transparent}
 
     .grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px}
     .proj{
@@ -166,7 +166,7 @@
           Hi, I'm <span id="name">Shreya </span> — building
           <span class="gradient" id="typewriter" aria-live="polite"></span>
         </h1>
-        <p class="kicker">Welcome to my Beaver Works portfolio. Here you’ll find my projects, labs, and hands‑on outputs from the <strong>Applied Engineering & AI</strong> track — from Arduino builds and data science notebooks to web apps and ML experiments.</p>
+        <p class="kicker">Welcome to my Beaver Works portfolio! Here you’ll find my projects, labs, and hands‑on outputs from the <strong>Applied Engineering & AI</strong> track — from Arduino builds and data science notebooks to web apps and ML experiments.</p>
         <div class="cta">
           <a class="btn btn-primary" href="#about">📘 About</a>
           <a class="btn" href="#links">🔗 Outputs</a>
@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="hero-card fade-in" style="animation-delay:.15s">
-        <div class="mini">Starter checklist</div>
+        <!--<div class="mini">Starter checklist</div>-->
         <div class="hero-list">
           <div class="hero-item">✅ GitHub profile set up</div>
           <div class="hero-item">✅ Resume PDF exported</div>
@@ -198,7 +198,6 @@
     <div class="about">
       <div class="card">
         <img class="profile" src="shreya.jpg" alt="Profile photo of student" />
-        <p class="mini" style="margin-top:10px">Replace <code>shreya.jpg</code> with your image.
       </div>
       <div class="card">
         <p>I’m a sophomore and Beaver Works student exploring <strong>applied engineering</strong> and <strong>AI</strong>. I love bringing ideas to life — whether it’s programming intelligent systems, designing robotics projects, or creating interactive simulations. This site is a collection of my favorite projects and what I’ve learned along the way.</p>
@@ -398,6 +397,7 @@
   </script>
 </body>
 </html>
+
 
 
 
